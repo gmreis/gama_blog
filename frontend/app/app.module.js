@@ -4,5 +4,6 @@
 angular.module('leadingApp', [
   'ngRoute',
   'core',
-  'homePage'
+  'homePage',
+  'postPage'
 ]);

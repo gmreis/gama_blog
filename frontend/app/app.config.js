@@ -10,6 +10,9 @@ angular.
         when('/home', {
           template: '<home-page></home-page>'
         }).
+        when('/novopost', {
+          template: '<post-page></post-page>'
+        }).
         otherwise('/home');
     }
   ]);
